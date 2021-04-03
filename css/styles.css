@@ -12,14 +12,18 @@
 header nav {
     display: inherit;
     max-width: inherit;
-    text-align: right;
-    padding: 35px;
+    text-align: center;
+}
+
+header img {
+  display: inline-block;
 }
 
 header nav li {
     display: inline-block;
     margin: 20px;
     text-align: right;
+    top: 40px;
 }
 
 header nav a {
@@ -29,7 +33,7 @@ header nav a {
     color: #333;
     font-weight: bold;
     transition: .2s;
-    text-align: right;
+
 }
 
 header nav a:hover {
@@ -37,12 +41,16 @@ header nav a:hover {
     transition: .2s;
 }
 
-.center {
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 175px;
+  width: 185px;
+  padding-top: 35px;
+  animation: logodrop 1s linear;
 }
+
+
 
 main {
     min-height: 80vh;
@@ -79,3 +87,21 @@ footer nav a {
 footer nav a:hover {
     border-bottom: 3px solid #333;
     transition: .2s;
+}
+
+
+
+
+
+
+
+
+@keyframes logodrop {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+
+}
