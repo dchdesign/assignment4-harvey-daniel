@@ -22,7 +22,6 @@ header img {
 header nav li {
     display: inline-block;
     margin: 20px;
-    text-align: right;
     top: 40px;
 }
 
@@ -53,45 +52,18 @@ header nav a:hover {
 
 
 main {
-    min-height: 80vh;
-    margin-top: 2%;
+  display: inline-block;
+
 }
 
-footer{
-  padding: 20px;
+.photography img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin: 15px;
+  display: inline-block;
+
 }
-
-
-footer nav {
-    display: inherit;
-    width: inherit;
-    text-align: center;
-}
-
-footer nav li {
-    display: inline-block;
-    margin: 0 40px;
-    text-align: right;
-}
-
-footer nav a {
-    text-decoration: none;
-    font-family: 'Optima', bold;
-    font-size: 18px;
-    color: #333;
-    font-weight: bold;
-    transition: .2s;
-    text-align: center;
-}
-
-footer nav a:hover {
-    border-bottom: 3px solid #333;
-    transition: .2s;
-}
-
-
-
-
 
 
 
