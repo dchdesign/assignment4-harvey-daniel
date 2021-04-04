@@ -14,6 +14,13 @@
 --Header Styling
 
 ================================*/
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: white;
+}
+
 
 header nav {
     display: inherit;
@@ -21,9 +28,6 @@ header nav {
     text-align: center;
 }
 
-header img {
-  display: inline-block;
-}
 
 header nav li {
     display: inline-block;
@@ -67,6 +71,7 @@ main {
   font-size: 18px;
   color: #333;
   font-weight: bold;
+  margin-top: 300px;
 }
 
 .customtext{
@@ -87,6 +92,7 @@ main {
   object-fit: cover;
   margin: 15px;
   display: inline-block;
+
 
 }
 
