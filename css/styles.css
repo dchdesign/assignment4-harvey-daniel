@@ -52,8 +52,25 @@ header nav a:hover {
 
 
 main {
-  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Optima', bold;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
 
+
+.customtext{
+  color: gray;
+  font-size: 24px;
+  display: block;
+}
+
+.container {
+  display:inline-block;
+  margin-right: auto;
+  margin-right: auto;
 }
 
 .photography img {
