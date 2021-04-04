@@ -9,6 +9,12 @@
   border: 0;
 }
 
+/*===========================
+
+--Header Styling
+
+================================*/
+
 header nav {
     display: inherit;
     max-width: inherit;
@@ -32,7 +38,6 @@ header nav a {
     color: #333;
     font-weight: bold;
     transition: .2s;
-
 }
 
 header nav a:hover {
@@ -49,7 +54,11 @@ header nav a:hover {
   animation: logodrop 1s linear;
 }
 
+/*===========================
 
+--Main body Styling
+
+================================*/
 
 main {
   text-align: center;
@@ -59,7 +68,6 @@ main {
   color: #333;
   font-weight: bold;
 }
-
 
 .customtext{
   color: gray;
@@ -82,8 +90,11 @@ main {
 
 }
 
+/*===========================
 
+--Animation Styling
 
+================================*/
 
 @keyframes logodrop {
   from {
